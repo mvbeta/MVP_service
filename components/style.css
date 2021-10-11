@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+   
+}
+body{
+   
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    background: #151b6d;
+    
+}
+
+.navbar{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: -webkit-sticky;
+	/* position: sticky; */
+	top: 0;
+    z-index: 100;
+    
+}
+
+
+.logo{
+    height: 160px;
+    width: 240px;
+    position:absolute;
+    
+}
+.menu{
+    width: 70px;
+    color:rgb(156, 154, 154);
+    display: none;
+}
+
+
+nav{
+    
+    font-size: 20px;
+    flex: 1;
+    text-align: right;
+    display: flex;
+    
+}
+
+nav ul{
+    margin-left: 45%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+    justify-content: end;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(232, 232, 238);
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    color:rgb(150, 144, 144);
+}
+
+
+.service{
+    text-decoration: none;
+    color: rgb(171, 172, 175);
+}
+
+
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgba(255, 255, 255, 0.075);
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 150px;
+    height: 75vh;
+    border-radius: 10px;
+}
+
+
+.col1 h1{
+    position: absolute;
+    top: 8%;
+    left: 6%;
+    font-size: 70px;
+    color: #fff;
+    
+}
+
+
+
+.dropdownho{
+    width: 316px;
+    border-radius: 5px;
+    position: absolute;
+    top: 17%;
+    left: 6%;
+}
+
+.dropdownho dl{
+    position: absolute;
+    top: 85px;
+    left: -1px;
+    background-color: rgba(255, 255, 255, 0.096);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 310px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    display: none;
+}
+
+.dropdownho dl.active{
+    display: block;
+}
+
+
+.dropdownho dt{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    cursor: pointer;   
+    user-select: none;
+}
+.dropdownho  a{
+    text-decoration: none;
+}
+.dropdownho dt:hover{
+    color: rgb(37, 36, 36);
+    font-size: 20px;
+}
+
+/* .search_field{
+    display: flex;
+    align-items: center;
+} */
+
+.input{
+    width: 98%;
+    border: 0;
+    font-size: 18px;
+    align-items: left;
+    background-color: rgba(255, 255, 255, 0.096);
+    border: 1px solid rgba(255, 255, 255, 0.151);
+    padding: 10px;
+    margin-top: 39px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    z-index: -1;
+    
+}
+
+
+
+
+
+button:hover{
+    background-color: rgb(13, 11, 77);
+    border: 1px solid #fff;
+}
+
+/* .col2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+} */
+
+
+.col2 .img1{
+    width: 48%; 
+    border-radius: 5px;
+    position: absolute;
+    left: 47%;
+    top: 7%
+ }
+
+
+.container1{
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff; 
+    margin-bottom: 30px;
+}
+
+
+
+
+.card{
+    width: 50%;
+    line-height: 2;
+    text-align: left;
+    margin-top:100px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #192079;;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+.card-img-top{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.card-img-top1{
+    width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+
+
+.font{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    color:#192079;
+}
+
+
+.card-title{
+    color:#192079;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-text{
+    text-align: center;
+    color:rgb(158, 154, 154);
+}  
+
+.container2{
+    max-width: 1170px;
+    margin: auto;
+}
+.row1{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content:'';
+    position: absolute;
+    left: 12;
+    bottom: -10px;
+    background-color:#e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 60px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.footer-col ul li a:hover{
+    color:#fff;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a{
+   display: inline-block;
+   height: 40px;
+   width:40px;
+   background-color: rgba(255,255,255,0.2);
+   margin:0 10px 10px 0;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   color:#fff;
+   transition: all 0.5s ease; 
+}
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color:#fff;
+}
+
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+        margin-left: 120px;
+    }
+
+
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+        
+    }
+}
+
+ 
+@media only screen and (max-width: 550px){
+    .logo{
+        height: 110px;
+        width: 110px;
+        position: absolute;
+        
+    }
+    
+    nav ul {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50px;
+        right: 0;
+        z-index: 2;
+        
+      }
+
+      nav ul li{
+        display: block;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+   
+
+    nav ul li a:hover{
+        color:black;
+        padding-left: 10px;
+    }
+    .menu{
+        position: absolute;
+        margin-top: 10px;
+        left: 80%;
+        display: block;
+    }
+
+    #menu-list{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .row{
+        flex-direction: column-reverse;
+        position: absolute;
+        height: 85vh;
+        width: 80vw;
+        margin-top: 85px;
+    }
+  .row .col1 h1{
+       position: absolute;
+       top:35%;
+
+   } 
+  .input{
+    margin-top: 100%;
+  }
+   .dropdownho dl{
+       margin-top: 87%;
+   }
+ 
+  
+   .container1 h1{
+       font-size: 29px;
+   }
+   .card{
+       flex-direction: column-reverse;
+       align-items: center;
+   }
+   .card h5{
+       font-size: 20px;
+   }
+   .card-img-top{
+       width: 75%;
+       position: relative;
+       
+   }
+   .card-img-top1{
+    width: 75%;
+}
+
+.card-text{
+    font-size: 15px;
+}
+}
+
+
+@media only screen and (max-width: 1250px){
+    nav ul{
+        margin-left: 15%;
+    }
+     nav ul li a{
+         font-size: 15px;
+       }
+ 
+       .col1 h1{
+         font-size: 40px;
+     } 
+     
+     .col1 h3{
+         font-size: 18px;
+     }
+  
+     .col2 .img1{
+        position: absolute;
+        left: 50%;
+        top: 9%;
+        width: 40%;
+    }
+
+    .col1 h1{
+        font-size: 42px;
+        position: absolute;
+        top: 7.5%;
+        left: 10%;
+    }
+    /* .col1 .search_field{
+        position: absolute;
+        top: 13%;
+        left: 10%;
+    } */
+  
+   .container1 h1{
+       font-size: 29px;
+   }
+
+   .dropdownho{
+    width: 310px;
+    border-radius: 5px;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+
+.input{
+    font-size: 15px;
+}
+.dropdownho dl{
+    font-size: 15px;
+    width:98%;
+    position: absolute;
+    top: 81px;
+    left: -1px;
+}
+.dropdownho dl a:hover{
+    color: rgb(37, 36, 36);
+    font-size: 16px;
+}
+ 
+ }
+ 

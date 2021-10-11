@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <nav>
+          <img src="../images/logo (2).png" src="logo" class="logo" />
+          <ul id="menu-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#">Resources</a></li>
+            <li>
+              <a href="../components/sellhome.html">Rent out Your Property</a>
+            </li>
+            <li><a href="../Signup.html">Sign up</a></li>
+
+            <li id="google_translate_element"></li>
+          </ul>
+          <div class="menu" onclick="togglemenu()">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col1">
+          <h1>
+            Easy way to find
+            <br />
+            your dream
+            <br />
+            house
+          </h1>
+
+          <div class="search_field">
+            <div class="dropdownho">
+              <input
+                type="text"
+                class="input"
+                placeholder="Search for a location..."
+              />
+
+              <dl>
+                <a href="Bhuj.html"><dt>Bhuj</dt></a>
+                <a href="bhagalpur.html"><dt>Bhagalpur</dt></a>
+                <a href="indore.html"><dt>Indore</dt></a>
+              </dl>
+            </div>
+
+            <!-- <button type="button" class="btn">Search Now</button> -->
+          </div>
+        </div>
+        <div class="col2">
+          <img src="../images/22.jpg" alt="home" class="img1" />
+        </div>
+        <!-- <div class="body-box"></div> -->
+      </div>
+    </div>
+
+    <div class="container1">
+      <h1 class="font" id="service">Our Services</h1>
+      <div class="col3">
+        <div class="card">
+          <img src="../images/23.jpg" class="card-img-top" alt="..." />
+          <h5 class="card-title">Fixed Fee & Support</h5>
+          <p class="card-text">
+            You'll only Pay one fee. and it's fixed from the beginning. There
+            are no Surprises, and we never add commission.
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="../images/26.jpg" class="card-img-top1" alt="..." />
+          <h5 class="card-title">Quick & Fast</h5>
+          <p class="card-text">
+            Our Partners can help with mortgages and conveyancing. and every
+            homeowner gets a free utilities switching service.
+          </p>
+        </div>
+        <div class="card">
+          <img src="../images/23.jpg" class="card-img-top" alt="..." />
+          <h5 class="card-title">Fixed Fee & Support</h5>
+          <p class="card-text">
+            You'll only Pay one fee. and it's fixed from the beginning. There
+            are no Surprises, and we never add commission.
+          </p>
+        </div>
+        <div class="card">
+          <img src="../images/23.jpg" class="card-img-top1" alt="..." />
+          <h5 class="card-title">Fixed Fee & Support</h5>
+          <p class="card-text">
+            You'll only Pay one fee. and it's fixed from the beginning. There
+            are no Surprises, and we never add commission.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container2">
+        <div class="row1">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Affiliate program</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Get Help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Booking Free</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">Booking status</a></li>
+              <li><a href="#">Payment options</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Online Book</h4>
+            <ul>
+              <li><a href="#">Renting home</a></li>
+              <li><a href="#">Online tutor</a></li>
+              <li><a href="#">Lawyer consultation</a></li>
+              <li><a href="#">Electrician</a></li>
+              <li><a href="#">Carpenter</a></li>
+              <li><a href="#">Plumber</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../index.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: 'en',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          'google_translate_element',
+        )
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+  </body>
+</html>

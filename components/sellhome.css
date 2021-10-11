@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+   
+}
+body{
+   
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    background: #192079;
+    
+}
+
+.navbar{
+    justify-content: end;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    z-index: 100;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(151, 151, 170);
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    color:#fff;
+}
+
+
+
+.img1{
+    width:40%;
+    height: 57%;
+    position: absolute;
+    top:42%;
+    left: 110px;
+    z-index: 1;
+    
+}
+.img1:hover{
+    width:41%;
+    height: 58%;
+    transition: 0.5s;
+}
+
+.col2{
+    position: absolute;
+    left: 500px;
+    top:168px;
+    background-color:  rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    width:45%;
+    height: 73%;
+    border-radius: 20px;
+}
+.row h1{
+    margin-top: 20px;
+    margin-left: 450px;
+    font-size: 50px;
+    color: rgb(206, 204, 204);
+}
+.col2 p{
+    text-align: end;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(5, 5, 61);
+   
+}
+.input-group{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.input-field{
+    width:85%;
+    color: #fff;
+    padding: 10px 0;
+    margin: 5px 56px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.input-field1{
+    width: 85%;
+    color: #fff;
+    padding: 10px 0 40px 3px ;
+    margin: 15px 0 0 56px;
+    border: 1px solid #999;
+    background: transparent;
+    font-size: 12px;
+}
+
+
+.submit-btn{
+    width: 78%;
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 66px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.imgup span{
+    font-size: 12px;
+    position: absolute;
+    top:205px;
+    left:56px;
+    color:#999;
+}
+
+#myFile{
+  margin-top: 40px;
+  margin-left: 56px;
+  margin-bottom: 13px;
+  
+}

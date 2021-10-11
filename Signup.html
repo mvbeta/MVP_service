@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up & Login</title>
+    <link rel="stylesheet" href="Signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="./Signup.html">Sign up</a></li>
+            <li id="google_translate_element"></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero">
+        <div class="form-box">
+          <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onClick="login()">
+              Log In
+            </button>
+            <button type="button" class="toggle-btn" onClick="signup()">
+              Sign Up
+            </button>
+          </div>
+
+          <form id="login" class="input-group">
+            <input
+              type="text"
+              class="input-field"
+              placeholder="User Id"
+              required
+            />
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Enter Password"
+              required
+            />
+            <input type="checkbox" class="chech-box" />
+            <span>Remember Password</span>
+            <button type="submit" class="submit-btn">Log in</button>
+          </form>
+
+          <form id="signup" class="input-group">
+            <input
+              type="text"
+              class="input-field"
+              placeholder="User Id"
+              required
+            />
+            <input
+              type="email"
+              class="input-field"
+              placeholder="Email Id"
+              required
+            />
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Enter Password"
+              required
+            />
+            <div class="check">
+              <input type="checkbox" class="chech-box" />
+              <span>I agree to the terms & conditions</span>
+            </div>
+            <button type="submit" class="submit-btn">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      var x = document.getElementById('login')
+      var y = document.getElementById('signup')
+      var z = document.getElementById('btn')
+
+      function signup() {
+        x.style.left = '-400px'
+        y.style.left = '50px'
+        z.style.left = '110px'
+      }
+
+      function login() {
+        x.style.left = '50px'
+        y.style.left = '450px'
+        z.style.left = '0px'
+      }
+    </script>
+  </body>
+</html>

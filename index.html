@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MVP_website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <nav>
+          <img src="./images/logo (2).png" src="logo" class="logo" />
+          <ul id="menu-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#">Resources</a></li>
+            <li>
+              <a href="./Signup.html">Sign up</a>
+            </li>
+            <li id="google_translate_element"></li>
+          </ul>
+          <div class="menu" onclick="togglemenu()"><i class="fas fa-bars"></i></div>
+        </nav>
+        
+      </div>
+
+      <div class="row">
+        <div class="col1">
+         
+          <h1>Easily find different <br>services in your <br>location</h1>
+          <h3>Search Services in Affordable Price</h3>
+
+          <div class="wrapper">
+              <div class="dropdown">
+                <div class="default_option">Select your service</div>
+                <dl>
+                  <a href="components/home.html"><dt>Online Renting</dt></a>
+                  <a href="components/tutor.html"><dt>Online Tutoring</dt></a>
+                  <a href="components/electrician.html"><dt>Electrician</dt></a>
+                  <a href="components/plumber.html"><dt>Plumber</dt></a>
+                  <a href="components/lawyer.html"><dt>Online Lawyer Consultation</dt></a>
+                 <a href="components/carpenter.html"><dt>Carpenter</dt></a> 
+                </dl>
+              </div>
+          </div>
+        </div>
+        <div class="col2">
+          
+          <img src="images/flat.jpg" alt="service" class="img1" />
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="container1">
+      <h1 class="font" id="service">Our Services</h1>
+      
+      <div class="col3">
+        <div class="Card">
+          <div class="card">
+            <a href="components/home.html">
+              <img
+                src="images/house.jpg"
+                class="card-img-top"
+                alt="online brokerage service"
+                title="online brokerage service"
+              />
+            </a>
+            <div class="card-body">
+              <a href="components/home.html" class="word">
+                <p class="card-title">Online Renting</p>
+              </a>
+            </div>
+          </div>  
+
+          <div class="card">
+              <a href="components/tutor.html">
+                <img
+                src="images/tutor (1).jpg"
+                class="card-img-top"
+                alt="online tutoring"
+                title="online tutoring"
+                />
+              </a>
+              <div class="card-body">
+                <a href="components/tutor.html" class="word">
+                  <p class="card-title">Online Tutoring</p>
+                </a>
+              </div>
+            </div>    
+
+              <div class="card">
+                <a href="components/electrician.html">
+                  
+                  <img
+                  src="images/electrician.jpg"
+                    class="card-img-top"
+                    alt="Electrician"
+                  title="Electrician"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="components/electrician.html" class="word">
+                    <p class="card-title">Electrician</p>
+                  </a>
+                </div>
+              </div>    
+
+                <div class="card">
+                  <a href="components/plumber.html">
+                    <img
+                    src="images/plumber.jpg"
+                      class="card-img-top"
+                      alt="Plumber" title="Plumber"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <a href="components/plumber.html" class="word">
+                      <p class="card-title">Plumber</p>
+                    </a>
+                  </div>
+                </div>      
+
+                  <div class="card">
+                    <a href="components/lawyer.html">
+                      <img
+                      src="images/image.jpg"
+                        class="card-img-top"
+                        alt="Online Lawyer Consultation"
+                        title="Online Lawyer Consultation"
+                      />
+                    </a>
+                    <div class="card-body">
+                      <a href="components/lawyer.html" class="word">
+                        <p class="card-title">Online Lawyer Consultation</p>
+                      </a>
+                    </div>
+                  </div>    
+
+                    <div class="card">
+                      <a href="components/carpenter.html">
+                        <img
+                        src="images/carpenter.jpg"
+                          class="card-img-top"
+                          alt="Carpenter"
+                        title="Carpenter"
+                        />
+                      </a>
+                      <div class="card-body">
+                        <a href="components/carpenter.html" class="word">
+                          <p class="card-title">Carpenter</p>
+                        </a>
+                      </div>
+                   </div>
+               </div>
+
+               <div class="form">
+                  <div class="para">If you don't find the service of your choice with us then click</div>
+                  <div class="demand"><a href="./Service.html">On-Demand Service</a></div>
+               </div>
+
+               <div class="footer">
+                 <div class="container2">
+                   <div class="row1">
+                     <div class="footer-col">
+                       <h4>Company</h4>
+                       <ul>
+                         <li><a href="#">About us</a></li>
+                         <li><a href="#">Our Services</a></li>
+                         <li><a href="#">Privacy policy</a></li>
+                         <li><a href="#">Affiliate program</a></li>
+                       </ul>
+                     </div>
+
+                     <div class="footer-col">
+                      <h4>Get Help</h4>
+                      <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Booking Free</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">Booking status</a></li>
+                        <li><a href="#">Payment options</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="footer-col">
+                      <h4>Online Book</h4>
+                      <ul>
+                        <li><a href="#">Renting home</a></li>
+                        <li><a href="#">Online tutor</a></li>
+                        <li><a href="#">Lawyer consultation </a></li>
+                        <li><a href="#">Electrician</a></li>
+                        <li><a href="#">Carpenter</a></li>
+                        <li><a href="#">Plumber</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="footer-col">
+                      <h4>Follow us</h4>
+                      <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f "></i></a>
+                        <a href="#"><i class="fab fa-twitter "></i></a>
+                        <a href="#"><i class="fab fa-instagram "></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in "></i></a>
+                      </div>
+                    </div>
+
+                   </div>
+                 </div>
+               </div>
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+      </script> 
+     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
